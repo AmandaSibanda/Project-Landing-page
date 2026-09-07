@@ -51,6 +51,43 @@ body {box-sizing: border-box;}
     font-weight: 900;
     font-size: 48px;
 }*/
+
+.hero-section {
+    background-color: #1F2937;
+    padding: 80px 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight: 900;
+    display: flex;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+}
+
+.hero-image {
+    background-color: rgba(252, 248, 248, 0.3);
+    padding: 30px;
+    width: 600px;
+    height: 100px;
+    display: flex;
+}
+.hero-image p {
+    text-align: center;
+    color: #E5E7EB;
+}
+.btn-primary {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100px;
+    color: #E5E7EB;
+}
 .features {
     padding: 60px 20px;
     background-color: #fff;
@@ -60,7 +97,7 @@ body {box-sizing: border-box;}
     font-size: 36px;
     text-align: center;
     margin-bottom: 48px;
-    font-weight: 800;
+    font-weight: 900;
 
 }
 
@@ -108,6 +145,8 @@ figcaption {
 .cta-card {
     background-color: #3882F6;
     color: #E5E7EB;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 .btn-outline {
