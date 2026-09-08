@@ -141,16 +141,39 @@ figcaption {
 .cta-section {
     margin: 20px;
     padding: 40px;
+    max-width: 0 auto;
 }
 .cta-card {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cta-text p {
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 14px;
 }
 
 .btn-outline {
+    display: block;
+    margin-left: auto;
+    margin-right: 60px;
     color: #F9FAF8;
+    justify-content: center;
+    border: #F9FAF8 solid 2px;
+    border-radius: 4px;
+    font-weight: 700;
+    padding: 8px;
+    width: 100px;
+    background-color: transparent;
+    flex-shrink: 0;
+    cursor: pointer;
 }
 
 
